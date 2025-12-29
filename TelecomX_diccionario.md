@@ -6,7 +6,6 @@
 - `SeniorCitizen`: información sobre si un cliente tiene o no una edad igual o mayor a 65 años
 - `Partner`: si el cliente tiene o no una pareja
 - `Dependents`: si el cliente tiene o no dependientes
-
 - `tenure`: meses de contrato del cliente
 - `PhoneService`: suscripción al servicio telefónico
 - `MultipleLines`: suscripción a más de una línea telefónica
