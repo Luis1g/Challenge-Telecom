@@ -11,33 +11,30 @@ El propósito de este proyecto es recopilar, procesar y analizar los datos, util
 
 ## Tecnologías y Herramientas
 * **Lenguaje:** Python 3
-* **Manipulación de Datos:** Pandas, Numpy, JSON
+* **Manipulación de Datos:** Pandas, Numpy, JSON, SKLEARN
 * **Visualización:** Matplotlib, Seaborn
 
 ## Estructura del Análisis
 
-### 1. Extracción y Limpieza de Datos
+### 1. Extracción y Limpieza de Datos - Parte 1 del proyecto
 Los datos se encuentran almacenados en un archivo JSON
 * Se utilizó **Pandas** para la extracción de los datos.
 * La biblioteca JSON se usa para normalizar y convertir en un **DataFrame** la base de datos.
+* Limpieza de los datos nulos y datos que no aportan nada para nuestro entrenamiento
 
-### 2. Porcentaje de evasión
+### Correlación y selección de variables.
 
-Se grafican la cantidad de clientes que cancelaron y su plan, versus los clientes que permanecieron con su plan.
+Se analizan la Correlación de los datos con la variable que contiene la información de si el cliente cancelo sus servicios o no es el caso. Ademas, se eliminan columnas que no deberían aportar nada a los modelos.
 
-### 3. Análisis de evasión
-El estudio se centró en comparar el comportamiento de los clientes (Evasión) con respecto diferentes variables:
+### Modelación predictiva.
 
-* Género del cliente 
-* Método de pago
-* Cargo Total.
-* Tipo de contrato.
-* Tiempo de contrato.
+* Los datos se separan para el entrenamiento.
+* Se crean dos modelo, uno que requiere datos normalizados (Regresión Logística) y otro que no lo requiere (Árbol de decisión).
+* Se evalúan los modelos con diferentes métricas.
 
-### 4. Matriz de correlación
+### Interpretación y Conclusiones
+ *Se realiza un análisis de las variables mas importantes para los modelos. 
+ *Se da un pequeño informe sobre los resultados obtenidos.
 
-Se analiza la correlación que existe entre diferentes variables y la evasión de los clientes.
 
-### 5. Informa
-
-Se presenta un informe con los hallazgos más relevantes del desafío.
+**Para saber mas del proyecto, lea el archivo de Informe_final.md**
