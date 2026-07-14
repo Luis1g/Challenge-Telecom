@@ -1,5 +1,5 @@
 # Desafío TelecomX LATAM Parte 2:
-Esta rama del repositorio contiene la segunda parte de desafío TelecomX, Vamos a mantener toda la primera parte del proyecto y ademas, se agregara nuevos preprocesamientos y análisis.
+Esta rama del repositorio contiene la segunda parte de desafío TelecomX, Vamos a mantener toda la primera parte del proyecto y ademas, se agregan nuevos preprocesamientos y metodos de análisis.
 
 > **Proyecto Práctico de Data Science con Python**
 
